@@ -39,15 +39,99 @@ assetsSummary:
   - ElectrodeGroup
   - ProcessingModule
   - LFP
-citation: Hohenheim, Jan (2023) Dataset of neurons and intracranial EEG from human
-  amygdala during aversive dynamic visual stimulation (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000576/draft
+citation: Fedele, Tommaso; Tzovara, Athina ; Steiger, Bettina ; Hilfiker, Peter ;
+  Grunwald, Thomas ; Stieglitz, Lennart ; Jokeit, Hennric; Hohenheim, Jan; Sarnthein,
+  Johannes  (2023) Dataset of neurons and intracranial EEG from human amygdala during
+  aversive dynamic visual stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000576/draft
 contributor:
+- affiliation:
+  - identifier: https://ror.org/055f7t516
+    name: National Research University Higher School of Economics, Moscow, Russian
+      Federation
+    schemaKey: Affiliation
+  email: fedele.tm@gmail.com
+  identifier: 0000-0001-7574-8062
+  includeInCitation: true
+  name: Fedele, Tommaso
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02k7v4d05
+    name: Institute for Computer Science, University of Bern, Switzerland
+    schemaKey: Affiliation
+  identifier: 0000-0002-7588-1418
+  includeInCitation: true
+  name: 'Tzovara, Athina '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 - affiliation: []
+  includeInCitation: true
+  name: 'Steiger, Bettina '
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-7729-4754
+  includeInCitation: true
+  name: 'Hilfiker, Peter '
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: 'Grunwald, Thomas '
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01462r250
+    name: Klinik für Neurochirurgie, UniversitätsSpital Zürich und Universität Zürich,
+      Zurich, Switzerland
+    schemaKey: Affiliation
+  identifier: 0000-0002-3744-5105
+  includeInCitation: true
+  name: 'Stieglitz, Lennart '
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01462r250
+    name: Zentrum für Neurowissenschaften Zürich, Switzerland
+    schemaKey: Affiliation
+  identifier: 0000-0001-6969-9639
+  includeInCitation: true
+  name: Jokeit, Hennric
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02crff812
+    name: Institute of Neuroinformatics, University of Zurich & ETH Zurich
+    schemaKey: Affiliation
+  - identifier: https://ror.org/05a28rw58
+    name: Institute of Neuroinformatics, University of Zurich & ETH Zurich
+    schemaKey: Affiliation
   email: jan@hohenheim.ch
+  identifier: 0000-0001-9436-8348
   includeInCitation: true
   name: Hohenheim, Jan
   roleName:
+  - dcite:ContactPerson
+  - dcite:DataManager
+  schemaKey: Person
+  url: https://www.hohenheim.ch
+- affiliation:
+  - identifier: https://ror.org/01462r250
+    name: Klinik für Neurochirurgie, UniversitätsSpital Zürich und Universität Zürich,
+      Zurich, Switzerland
+    schemaKey: Affiliation
+  - identifier: https://ror.org/01462r250
+    name: Zentrum für Neurowissenschaften Zürich, Switzerland
+    schemaKey: Affiliation
+  email: johannes.sarnthein@usz.ch
+  identifier: 0000-0001-9141-381X
+  includeInCitation: true
+  name: 'Sarnthein, Johannes '
+  roleName:
+  - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-07-04T17:10:34.084138+00:00'
@@ -78,7 +162,34 @@ manifestLocation:
 name: Dataset of neurons and intracranial EEG from human amygdala during aversive
   dynamic visual stimulation
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: 10.1016/j.neuroimage.2020.116705
+  name: The relation between neuronal firing, local field potentials and hemodynamic
+    activity in the human amygdala in response to aversive dynamic visual stimuli
+  relation: dcite:IsSupplementTo
+  repository: NeuroImage
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.neuroimage.2020.116705
+- identifier: 10.18112/openneuro.ds003374.v1.1.1
+  name: Dataset of neurons and intracranial EEG from human amygdala during aversive
+    dynamic visual stimulation
+  relation: dcite:IsVariantFormOf
+  repository: OpenNeuro
+  schemaKey: Resource
+  url: https://doi.org/10.18112/openneuro.ds003374.v1.1.1
+- identifier: usz-neuro-conversion
+  name: USZ Neuro Conversion
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  schemaKey: Resource
+  url: https://github.com/janhohenheim/usz-neuro-conversion
+- identifier: Human_Amygdala_MUA_sEEG_FearVideo
+  name: Dataset of neurons and intracranial EEG from human amygdala during aversive
+    dynamic visual stimulation
+  relation: dcite:IsVariantFormOf
+  repository: G-Node
+  schemaKey: Resource
+  url: https://gin.g-node.org/USZ_NCH/Human_Amygdala_MUA_sEEG_FearVideo
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
