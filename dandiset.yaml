@@ -181,6 +181,12 @@ relatedResource:
   repository: scientific data
   schemaKey: Resource
   url: https://doi.org/10.1038/s41597-020-00790-x
+- identifier: Dynamic visual sequences of fearful faces
+  name: Presentation Files
+  relation: dcite:IsSupplementedBy
+  repository: Neurobehavioral Systems
+  schemaKey: Resource
+  url: https://www.neurobs.com/ex_files/expt_view?id=283
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
