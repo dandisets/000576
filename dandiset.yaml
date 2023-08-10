@@ -119,6 +119,16 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: '204651'
+  contactPoint: []
+  email: projects.ls@snf.ch
+  identifier: https://ror.org/00yjd3n13
+  includeInCitation: false
+  name: ' Swiss National Science Foundation'
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.snf.ch/en
 dateCreated: '2023-07-04T17:10:34.084138+00:00'
 description: 'We present an electrophysiological dataset collected from the amygdalae
   of nine subjects attending a visual dynamic stimulation of emotional aversive content.
