@@ -25,8 +25,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 196057536
-  numberOfFiles: 11
+  numberOfBytes: 2191651090
+  numberOfFiles: 27
   numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
@@ -42,7 +42,7 @@ assetsSummary:
 citation: Fedele, Tommaso; Hilfiker, Peter ; Grunwald, Thomas ; Stieglitz, Lennart
   ; Jokeit, Hennric; Hohenheim, Jan; Sarnthein, Johannes  (2023) Dataset of neurons
   and intracranial EEG from human amygdala during aversive dynamic visual stimulation
-  (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  (Version 0.231010.1811) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation:
   - identifier: https://ror.org/055f7t516
@@ -159,13 +159,13 @@ description: 'We present an electrophysiological dataset collected from the amyg
   in the human brain.'
 doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
-id: DANDI:000576/draft
+id: DANDI:000576/0.231010.1811
 identifier: DANDI:000576
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000576/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000576/0.231010.1811/assets.yaml
 name: Dataset of neurons and intracranial EEG from human amygdala during aversive
   dynamic visual stimulation
 protocol: []
@@ -231,6 +231,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000576/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000576/0.231010.1811
+version: 0.231010.1811
 wasGeneratedBy: []
