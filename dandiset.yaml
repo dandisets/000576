@@ -25,8 +25,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 161075597
-  numberOfFiles: 9
+  numberOfBytes: 196057536
+  numberOfFiles: 11
   numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
@@ -140,7 +140,7 @@ contributor:
   schemaKey: Organization
   url: https://www.kavlifoundation.org/
 dateCreated: '2023-07-04T17:10:34.084138+00:00'
-datePublished: '2023-10-09T20:56:44.913031+00:00'
+datePublished: '2023-10-10T18:11:47.645341+00:00'
 description: 'We present an electrophysiological dataset collected from the amygdalae
   of nine subjects attending a visual dynamic stimulation of emotional aversive content.
   The subjects were patients affected by epilepsy who underwent preoperative invasive
@@ -170,13 +170,13 @@ name: Dataset of neurons and intracranial EEG from human amygdala during aversiv
   dynamic visual stimulation
 protocol: []
 publishedBy:
-  endDate: '2023-10-09T20:56:44.913031+00:00'
-  id: urn:uuid:0a9417cc-ff80-4e5f-9245-9f5efc77f3ea
+  endDate: '2023-10-10T18:11:47.645341+00:00'
+  id: urn:uuid:6f2c125f-baf3-4f4b-a95c-8ffc88d10378
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-10-09T20:56:44.913031+00:00'
+  startDate: '2023-10-10T18:11:47.645341+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:101aa22b-a5a3-4fa7-b040-438bec694bd4
+  - id: urn:uuid:59cc2f72-7f63-4fd3-8070-7d185c0cfe14
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
